@@ -1,12 +1,12 @@
 module.exports = {
   title: "飞天雕的开发之路",
   tagline: "通往云开发",
-  url: "https://easytcb.com",
+  url: "https://lovesmilesha.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "lovesmilesha", // Usually your GitHub org/user name.
+  projectName: "lovesmilesha.github.io", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "首页",
