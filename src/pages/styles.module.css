@@ -4,7 +4,9 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-
+:root {
+  --ifm-color-primary: rgb(154, 188, 242) !important;
+}
 .heroBanner {
   padding: 4rem 0;
   text-align: center;

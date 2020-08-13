@@ -4,15 +4,19 @@ module.exports = {
   url: "https://lovesmilesha.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  favicon: "img/favicon.ico",
+  favicon: "http://qezuflwvp.hn-bkt.clouddn.com/logo.png",
   organizationName: "lovesmilesha", // Usually your GitHub org/user name.
   projectName: "lovesmilesha.github.io", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+    },
     navbar: {
       title: "首页",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "http://qezuflwvp.hn-bkt.clouddn.com/logo.png",
       },
       items: [
         {
