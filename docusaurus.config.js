@@ -3,7 +3,7 @@ module.exports = {
   tagline: "通往云开发",
   url: "https://leosxie.github.io",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   favicon: "http://qezuflwvp.hn-bkt.clouddn.com/logo.png",
   organizationName: "leosxie", // Usually your GitHub org/user name.
   projectName: "leosxie.github.io", // Usually your repo name.
