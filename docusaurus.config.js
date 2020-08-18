@@ -76,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 前端小站, <a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备15032469号</a>.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 前端小站, <a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备15032469号</a>.`,
     },
   },
   presets: [

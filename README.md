@@ -27,12 +27,12 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+$ GIT_USER=leosxie USE_SSH=true yarn deploy
 
 #生成ssh 把pub加入到github中取，在.ssh目录下的config文件中加入以下配置
 Host github.com
     HostName github.com
-    User lovesmilesha
+    User leosxie
     IdentityFile ~/.ssh/id_rsa
 ```
 
