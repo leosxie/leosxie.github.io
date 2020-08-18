@@ -44,7 +44,7 @@ module.exports = {
               to: "docs/docusaurus/doc1",
             },
             {
-              label: "Javascript",
+              label: "服务器",
               to: "docs/",
             },
           ],
