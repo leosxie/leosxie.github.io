@@ -1,12 +1,12 @@
 module.exports = {
   title: "飞天雕的开发之路",
   tagline: "通往云开发",
-  url: "https://lovesmilesha.github.io",
+  url: "https://leosxie.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "http://qezuflwvp.hn-bkt.clouddn.com/logo.png",
-  organizationName: "lovesmilesha", // Usually your GitHub org/user name.
-  projectName: "lovesmilesha.github.io", // Usually your repo name.
+  organizationName: "leosxie", // Usually your GitHub org/user name.
+  projectName: "leosxie.github.io", // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -27,7 +27,7 @@ module.exports = {
         },
         { to: "blog", label: "文章", position: "left" },
         {
-          href: "https://github.com/lovesmilesha",
+          href: "https://github.com/leosxie",
           label: "我的GitHub",
           position: "right",
         },
@@ -71,7 +71,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/lovesmilesha",
+              href: "https://github.com/leosxie",
             },
           ],
         },
@@ -88,14 +88,13 @@ module.exports = {
           homePageId: "doc1",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/lovesmilesha/lovesmilesha.github.io/tree/tcb/",
+          editUrl: "https://github.com/leosxie/leosxie.github.io/tree/tcb/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/lovesmilesha/lovesmilesha.github.io/tree/tcb/blog/",
+            "https://github.com/leosxie/leosxie.github.io/tree/tcb/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
