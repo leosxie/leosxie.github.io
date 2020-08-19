@@ -3,7 +3,7 @@ module.exports = {
   tagline: "通往云开发",
   url: "https://leosxie.github.io",
   baseUrl: "/",
-  onBrokenLinks: "ignore",
+  onBrokenLinks: "error",
   favicon: "http://qezuflwvp.hn-bkt.clouddn.com/logo.png",
   organizationName: "leosxie", // Usually your GitHub org/user name.
   projectName: "leosxie.github.io", // Usually your repo name.
@@ -20,12 +20,11 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/docusaurus/doc1/",
-          activeBasePath: "docs/docusaurus",
+          to: "docs",
           label: "文档",
           position: "left",
         },
-        { to: "blog", label: "文章", position: "left" },
+        { to: "blog", label: "blog", position: "left" },
         {
           href: "https://github.com/leosxie",
           label: "我的GitHub",
@@ -44,8 +43,8 @@ module.exports = {
               to: "docs/docusaurus/doc1",
             },
             {
-              label: "服务器",
-              to: "docs/",
+              label: "Linux",
+              to: "docs/linux/ssh",
             },
           ],
         },
@@ -66,7 +65,7 @@ module.exports = {
           title: "更多",
           items: [
             {
-              label: "文章",
+              label: "blog",
               to: "blog",
             },
             {
@@ -85,7 +84,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "doc1",
+          homePageId: "index",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/leosxie/leosxie.github.io/tree/tcb/",

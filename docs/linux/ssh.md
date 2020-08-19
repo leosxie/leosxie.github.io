@@ -14,7 +14,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa-remote-ssh
 
 ### 客户端：拷贝秘钥文件内容到服务器
 
-2. 将.pub 文件的内容复制到 **~/.ssh/authorized_keys** 中执行 **ssh-copy-id** 命令即可，把 ssh 的 pub 内容直接复制到服务器的 authorized_keys 中 用户名
+2. 将.pub 文件的内容复制到 **~/.ssh/authorized_keys** 中执行 **ssh-copy-id** 命令即可，把 ssh 的 pub 内容直接复制到服务器的 [用户名]的 authorized_keys 中
 
 ```bash
 ssh-copy-id -i ~/.ssh/id_rsa-remote-ssh  -p 端口 用户名@服务器ip
