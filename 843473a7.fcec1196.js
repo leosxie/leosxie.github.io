@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{73:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"ssh\u767b\u5f55\u670d\u52a1\u5668","name":"ssh\u767b\u5f55\u670d\u52a1\u5668","count":1,"permalink":"/blog/tags/ssh\u767b\u5f55\u670d\u52a1\u5668"}')}}]);
