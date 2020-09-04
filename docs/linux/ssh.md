@@ -65,3 +65,10 @@ ssh 192.168.1.3
 
 # 验证完毕可以考虑禁止用户名登录，保证安全
 ```
+
+### centos 快捷安装nodejs
+
+```bash
+curl --silent --location https://rpm.nodesource.com/setup_12.x | bash -
+yum install -y nodejs
+```
